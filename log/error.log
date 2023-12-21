@@ -1,0 +1,644 @@
+2023/12/21 16:18:14 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:18:14 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:18:14 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:18:14 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:18:14 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:18:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:18:14 [notice] 1#1: start worker processes
+2023/12/21 16:18:14 [notice] 1#1: start worker process 20
+2023/12/21 16:18:14 [notice] 1#1: start worker process 21
+2023/12/21 16:18:14 [notice] 1#1: start worker process 22
+2023/12/21 16:18:14 [notice] 1#1: start worker process 23
+2023/12/21 16:21:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:21:31 [notice] 22#22: gracefully shutting down
+2023/12/21 16:21:31 [notice] 21#21: gracefully shutting down
+2023/12/21 16:21:31 [notice] 21#21: exiting
+2023/12/21 16:21:31 [notice] 20#20: gracefully shutting down
+2023/12/21 16:21:31 [notice] 23#23: gracefully shutting down
+2023/12/21 16:21:31 [notice] 22#22: exiting
+2023/12/21 16:21:31 [notice] 21#21: exit
+2023/12/21 16:21:31 [notice] 20#20: exiting
+2023/12/21 16:21:31 [notice] 20#20: exit
+2023/12/21 16:21:31 [notice] 23#23: exiting
+2023/12/21 16:21:31 [notice] 22#22: exit
+2023/12/21 16:21:31 [notice] 23#23: exit
+2023/12/21 16:21:31 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:21:31 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:21:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:21:31 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:21:31 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:21:31 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:21:31 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:21:31 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:21:31 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:21:31 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:21:31 [notice] 1#1: exit
+2023/12/21 16:23:53 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:23:53 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:23:53 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:23:53 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:23:53 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:23:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:23:53 [notice] 1#1: start worker processes
+2023/12/21 16:23:53 [notice] 1#1: start worker process 20
+2023/12/21 16:23:53 [notice] 1#1: start worker process 21
+2023/12/21 16:23:53 [notice] 1#1: start worker process 22
+2023/12/21 16:23:53 [notice] 1#1: start worker process 23
+2023/12/21 16:24:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:24:36 [notice] 20#20: gracefully shutting down
+2023/12/21 16:24:36 [notice] 21#21: gracefully shutting down
+2023/12/21 16:24:36 [notice] 21#21: exiting
+2023/12/21 16:24:36 [notice] 23#23: gracefully shutting down
+2023/12/21 16:24:36 [notice] 22#22: gracefully shutting down
+2023/12/21 16:24:36 [notice] 22#22: exiting
+2023/12/21 16:24:36 [notice] 20#20: exiting
+2023/12/21 16:24:36 [notice] 21#21: exit
+2023/12/21 16:24:36 [notice] 23#23: exiting
+2023/12/21 16:24:36 [notice] 23#23: exit
+2023/12/21 16:24:36 [notice] 22#22: exit
+2023/12/21 16:24:36 [notice] 20#20: exit
+2023/12/21 16:24:36 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:24:36 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:24:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:24:36 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:24:36 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:24:36 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:24:36 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:24:36 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:24:36 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:24:36 [notice] 1#1: exit
+2023/12/21 16:24:37 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:24:37 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:24:37 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:24:37 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:24:37 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:24:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:24:37 [notice] 1#1: start worker processes
+2023/12/21 16:24:37 [notice] 1#1: start worker process 20
+2023/12/21 16:24:37 [notice] 1#1: start worker process 21
+2023/12/21 16:24:37 [notice] 1#1: start worker process 22
+2023/12/21 16:24:37 [notice] 1#1: start worker process 23
+2023/12/21 16:28:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:28:58 [notice] 20#20: gracefully shutting down
+2023/12/21 16:28:58 [notice] 20#20: exiting
+2023/12/21 16:28:58 [notice] 21#21: gracefully shutting down
+2023/12/21 16:28:58 [notice] 23#23: gracefully shutting down
+2023/12/21 16:28:58 [notice] 22#22: gracefully shutting down
+2023/12/21 16:28:58 [notice] 20#20: exit
+2023/12/21 16:28:58 [notice] 21#21: exiting
+2023/12/21 16:28:58 [notice] 23#23: exiting
+2023/12/21 16:28:58 [notice] 22#22: exiting
+2023/12/21 16:28:58 [notice] 23#23: exit
+2023/12/21 16:28:58 [notice] 21#21: exit
+2023/12/21 16:28:58 [notice] 22#22: exit
+2023/12/21 16:28:58 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:28:58 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:28:58 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:28:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:28:58 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:28:58 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:28:58 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:28:58 [notice] 1#1: exit
+2023/12/21 16:29:03 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:29:03 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:29:03 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:29:03 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:29:03 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:29:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:29:03 [notice] 1#1: start worker processes
+2023/12/21 16:29:03 [notice] 1#1: start worker process 20
+2023/12/21 16:29:03 [notice] 1#1: start worker process 21
+2023/12/21 16:29:03 [notice] 1#1: start worker process 22
+2023/12/21 16:29:03 [notice] 1#1: start worker process 23
+2023/12/21 16:29:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:29:58 [notice] 20#20: gracefully shutting down
+2023/12/21 16:29:58 [notice] 22#22: gracefully shutting down
+2023/12/21 16:29:58 [notice] 22#22: exiting
+2023/12/21 16:29:58 [notice] 23#23: gracefully shutting down
+2023/12/21 16:29:58 [notice] 23#23: exiting
+2023/12/21 16:29:58 [notice] 21#21: gracefully shutting down
+2023/12/21 16:29:58 [notice] 20#20: exiting
+2023/12/21 16:29:58 [notice] 22#22: exit
+2023/12/21 16:29:58 [notice] 23#23: exit
+2023/12/21 16:29:58 [notice] 21#21: exiting
+2023/12/21 16:29:58 [notice] 20#20: exit
+2023/12/21 16:29:58 [notice] 21#21: exit
+2023/12/21 16:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:29:58 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:29:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:29:58 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:29:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:29:58 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:29:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:29:58 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:29:58 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:29:58 [notice] 1#1: exit
+2023/12/21 16:29:59 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:29:59 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:29:59 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:29:59 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:29:59 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:29:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:29:59 [notice] 1#1: start worker processes
+2023/12/21 16:29:59 [notice] 1#1: start worker process 20
+2023/12/21 16:29:59 [notice] 1#1: start worker process 21
+2023/12/21 16:29:59 [notice] 1#1: start worker process 22
+2023/12/21 16:29:59 [notice] 1#1: start worker process 23
+2023/12/21 16:33:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:33:41 [notice] 20#20: gracefully shutting down
+2023/12/21 16:33:41 [notice] 22#22: gracefully shutting down
+2023/12/21 16:33:41 [notice] 21#21: gracefully shutting down
+2023/12/21 16:33:41 [notice] 23#23: gracefully shutting down
+2023/12/21 16:33:41 [notice] 20#20: exiting
+2023/12/21 16:33:41 [notice] 22#22: exiting
+2023/12/21 16:33:41 [notice] 22#22: exit
+2023/12/21 16:33:41 [notice] 21#21: exiting
+2023/12/21 16:33:41 [notice] 21#21: exit
+2023/12/21 16:33:41 [notice] 23#23: exiting
+2023/12/21 16:33:41 [notice] 20#20: exit
+2023/12/21 16:33:41 [notice] 23#23: exit
+2023/12/21 16:33:41 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:33:41 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:33:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:33:41 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:33:41 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:33:41 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:33:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:33:41 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:33:41 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:33:41 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:33:41 [notice] 1#1: exit
+2023/12/21 16:33:43 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:33:43 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:33:43 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:33:43 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:33:43 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:33:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:33:43 [notice] 1#1: start worker processes
+2023/12/21 16:33:43 [notice] 1#1: start worker process 19
+2023/12/21 16:33:43 [notice] 1#1: start worker process 20
+2023/12/21 16:33:43 [notice] 1#1: start worker process 21
+2023/12/21 16:33:43 [notice] 1#1: start worker process 22
+2023/12/21 16:34:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:34:20 [notice] 19#19: gracefully shutting down
+2023/12/21 16:34:20 [notice] 20#20: gracefully shutting down
+2023/12/21 16:34:20 [notice] 19#19: exiting
+2023/12/21 16:34:20 [notice] 21#21: gracefully shutting down
+2023/12/21 16:34:20 [notice] 22#22: gracefully shutting down
+2023/12/21 16:34:20 [notice] 20#20: exiting
+2023/12/21 16:34:20 [notice] 19#19: exit
+2023/12/21 16:34:20 [notice] 21#21: exiting
+2023/12/21 16:34:20 [notice] 22#22: exiting
+2023/12/21 16:34:20 [notice] 20#20: exit
+2023/12/21 16:34:20 [notice] 21#21: exit
+2023/12/21 16:34:20 [notice] 22#22: exit
+2023/12/21 16:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/12/21 16:34:20 [notice] 1#1: worker process 19 exited with code 0
+2023/12/21 16:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:34:20 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:34:20 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:34:20 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:34:20 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:34:20 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:34:20 [notice] 1#1: exit
+2023/12/21 16:34:22 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:34:22 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:34:22 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:34:22 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:34:22 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:34:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:34:22 [notice] 1#1: start worker processes
+2023/12/21 16:34:22 [notice] 1#1: start worker process 20
+2023/12/21 16:34:22 [notice] 1#1: start worker process 21
+2023/12/21 16:34:22 [notice] 1#1: start worker process 22
+2023/12/21 16:34:22 [notice] 1#1: start worker process 23
+2023/12/21 16:35:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:35:23 [notice] 20#20: gracefully shutting down
+2023/12/21 16:35:23 [notice] 21#21: gracefully shutting down
+2023/12/21 16:35:23 [notice] 21#21: exiting
+2023/12/21 16:35:23 [notice] 23#23: gracefully shutting down
+2023/12/21 16:35:23 [notice] 23#23: exiting
+2023/12/21 16:35:23 [notice] 22#22: gracefully shutting down
+2023/12/21 16:35:23 [notice] 20#20: exiting
+2023/12/21 16:35:23 [notice] 21#21: exit
+2023/12/21 16:35:23 [notice] 23#23: exit
+2023/12/21 16:35:23 [notice] 20#20: exit
+2023/12/21 16:35:23 [notice] 22#22: exiting
+2023/12/21 16:35:23 [notice] 22#22: exit
+2023/12/21 16:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:35:23 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:35:23 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:35:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:35:23 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:35:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:35:23 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:35:23 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:35:23 [notice] 1#1: exit
+2023/12/21 16:35:25 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:35:25 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:35:25 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:35:25 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:35:25 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:35:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:35:25 [notice] 1#1: start worker processes
+2023/12/21 16:35:25 [notice] 1#1: start worker process 20
+2023/12/21 16:35:25 [notice] 1#1: start worker process 21
+2023/12/21 16:35:25 [notice] 1#1: start worker process 22
+2023/12/21 16:35:25 [notice] 1#1: start worker process 23
+2023/12/21 16:36:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:36:04 [notice] 20#20: gracefully shutting down
+2023/12/21 16:36:04 [notice] 21#21: gracefully shutting down
+2023/12/21 16:36:04 [notice] 22#22: gracefully shutting down
+2023/12/21 16:36:04 [notice] 23#23: gracefully shutting down
+2023/12/21 16:36:04 [notice] 20#20: exiting
+2023/12/21 16:36:04 [notice] 21#21: exiting
+2023/12/21 16:36:04 [notice] 22#22: exiting
+2023/12/21 16:36:04 [notice] 23#23: exiting
+2023/12/21 16:36:04 [notice] 20#20: exit
+2023/12/21 16:36:04 [notice] 21#21: exit
+2023/12/21 16:36:04 [notice] 22#22: exit
+2023/12/21 16:36:04 [notice] 23#23: exit
+2023/12/21 16:36:04 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:36:04 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:36:04 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:36:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:36:04 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:36:04 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:36:04 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:36:04 [notice] 1#1: exit
+2023/12/21 16:37:42 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:37:42 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:37:42 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:37:42 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:37:42 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:37:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:37:42 [notice] 1#1: start worker processes
+2023/12/21 16:37:42 [notice] 1#1: start worker process 20
+2023/12/21 16:37:42 [notice] 1#1: start worker process 21
+2023/12/21 16:37:42 [notice] 1#1: start worker process 22
+2023/12/21 16:37:42 [notice] 1#1: start worker process 23
+2023/12/21 16:38:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:38:39 [notice] 21#21: gracefully shutting down
+2023/12/21 16:38:39 [notice] 23#23: gracefully shutting down
+2023/12/21 16:38:39 [notice] 22#22: gracefully shutting down
+2023/12/21 16:38:39 [notice] 20#20: gracefully shutting down
+2023/12/21 16:38:39 [notice] 21#21: exiting
+2023/12/21 16:38:39 [notice] 23#23: exiting
+2023/12/21 16:38:39 [notice] 22#22: exiting
+2023/12/21 16:38:39 [notice] 20#20: exiting
+2023/12/21 16:38:39 [notice] 20#20: exit
+2023/12/21 16:38:39 [notice] 23#23: exit
+2023/12/21 16:38:39 [notice] 21#21: exit
+2023/12/21 16:38:39 [notice] 22#22: exit
+2023/12/21 16:38:39 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:38:39 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:38:39 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:38:39 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:38:39 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:38:39 [notice] 1#1: exit
+2023/12/21 16:38:40 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:38:40 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:38:40 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:38:40 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:38:40 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:38:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:38:40 [notice] 1#1: start worker processes
+2023/12/21 16:38:40 [notice] 1#1: start worker process 19
+2023/12/21 16:38:40 [notice] 1#1: start worker process 20
+2023/12/21 16:38:40 [notice] 1#1: start worker process 21
+2023/12/21 16:38:40 [notice] 1#1: start worker process 22
+2023/12/21 16:39:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:39:07 [notice] 19#19: gracefully shutting down
+2023/12/21 16:39:07 [notice] 20#20: gracefully shutting down
+2023/12/21 16:39:07 [notice] 22#22: gracefully shutting down
+2023/12/21 16:39:07 [notice] 21#21: gracefully shutting down
+2023/12/21 16:39:07 [notice] 19#19: exiting
+2023/12/21 16:39:07 [notice] 19#19: exit
+2023/12/21 16:39:07 [notice] 20#20: exiting
+2023/12/21 16:39:07 [notice] 22#22: exiting
+2023/12/21 16:39:07 [notice] 22#22: exit
+2023/12/21 16:39:07 [notice] 21#21: exiting
+2023/12/21 16:39:07 [notice] 20#20: exit
+2023/12/21 16:39:07 [notice] 21#21: exit
+2023/12/21 16:39:07 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:39:07 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:39:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:39:07 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/12/21 16:39:07 [notice] 1#1: worker process 19 exited with code 0
+2023/12/21 16:39:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:39:07 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:39:07 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:39:07 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:39:07 [notice] 1#1: exit
+2023/12/21 16:39:27 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:39:27 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:39:27 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:39:27 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:39:27 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:39:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:39:27 [notice] 1#1: start worker processes
+2023/12/21 16:39:27 [notice] 1#1: start worker process 20
+2023/12/21 16:39:27 [notice] 1#1: start worker process 21
+2023/12/21 16:39:27 [notice] 1#1: start worker process 22
+2023/12/21 16:39:27 [notice] 1#1: start worker process 23
+2023/12/21 16:44:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:44:05 [notice] 20#20: gracefully shutting down
+2023/12/21 16:44:05 [notice] 21#21: gracefully shutting down
+2023/12/21 16:44:05 [notice] 22#22: gracefully shutting down
+2023/12/21 16:44:05 [notice] 23#23: gracefully shutting down
+2023/12/21 16:44:05 [notice] 20#20: exiting
+2023/12/21 16:44:05 [notice] 21#21: exiting
+2023/12/21 16:44:05 [notice] 22#22: exiting
+2023/12/21 16:44:05 [notice] 23#23: exiting
+2023/12/21 16:44:05 [notice] 20#20: exit
+2023/12/21 16:44:05 [notice] 21#21: exit
+2023/12/21 16:44:05 [notice] 22#22: exit
+2023/12/21 16:44:05 [notice] 23#23: exit
+2023/12/21 16:44:05 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:44:05 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:44:05 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:44:05 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:44:05 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:44:05 [notice] 1#1: exit
+2023/12/21 16:44:07 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:44:07 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:44:07 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:44:07 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:44:07 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:44:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:44:07 [notice] 1#1: start worker processes
+2023/12/21 16:44:07 [notice] 1#1: start worker process 19
+2023/12/21 16:44:07 [notice] 1#1: start worker process 20
+2023/12/21 16:44:07 [notice] 1#1: start worker process 21
+2023/12/21 16:44:07 [notice] 1#1: start worker process 22
+2023/12/21 16:44:13 [error] 19#19: *1 open() "/opt/app/static/static/scripts.js" failed (2: No such file or directory), client: 172.18.0.1, server: 0.0.0.0, request: "GET /static/scripts.js HTTP/1.1", host: "gorgeous-fox-incredibly.ngrok-free.app", referrer: "https://gorgeous-fox-incredibly.ngrok-free.app/"
+2023/12/21 16:44:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:44:58 [notice] 19#19: gracefully shutting down
+2023/12/21 16:44:58 [notice] 20#20: gracefully shutting down
+2023/12/21 16:44:58 [notice] 21#21: gracefully shutting down
+2023/12/21 16:44:58 [notice] 21#21: exiting
+2023/12/21 16:44:58 [notice] 22#22: gracefully shutting down
+2023/12/21 16:44:58 [notice] 19#19: exiting
+2023/12/21 16:44:58 [notice] 22#22: exiting
+2023/12/21 16:44:58 [notice] 20#20: exiting
+2023/12/21 16:44:58 [notice] 21#21: exit
+2023/12/21 16:44:58 [notice] 19#19: exit
+2023/12/21 16:44:58 [notice] 22#22: exit
+2023/12/21 16:44:58 [notice] 20#20: exit
+2023/12/21 16:44:58 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:44:58 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:44:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:44:58 [notice] 1#1: signal 17 (SIGCHLD) received from 19
+2023/12/21 16:44:58 [notice] 1#1: worker process 19 exited with code 0
+2023/12/21 16:44:58 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:44:58 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:44:58 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:44:58 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:44:58 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:44:58 [notice] 1#1: exit
+2023/12/21 16:45:00 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:45:00 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:45:00 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:45:00 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:45:00 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:45:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:45:00 [notice] 1#1: start worker processes
+2023/12/21 16:45:00 [notice] 1#1: start worker process 20
+2023/12/21 16:45:00 [notice] 1#1: start worker process 21
+2023/12/21 16:45:00 [notice] 1#1: start worker process 22
+2023/12/21 16:45:00 [notice] 1#1: start worker process 23
+2023/12/21 16:45:03 [error] 20#20: *1 open() "/opt/app/static/scripts.js" failed (2: No such file or directory), client: 172.18.0.1, server: 0.0.0.0, request: "GET /static/scripts.js HTTP/1.1", host: "gorgeous-fox-incredibly.ngrok-free.app", referrer: "https://gorgeous-fox-incredibly.ngrok-free.app/"
+2023/12/21 16:46:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:46:45 [notice] 20#20: gracefully shutting down
+2023/12/21 16:46:45 [notice] 21#21: gracefully shutting down
+2023/12/21 16:46:45 [notice] 22#22: gracefully shutting down
+2023/12/21 16:46:45 [notice] 22#22: exiting
+2023/12/21 16:46:45 [notice] 23#23: gracefully shutting down
+2023/12/21 16:46:45 [notice] 20#20: exiting
+2023/12/21 16:46:45 [notice] 21#21: exiting
+2023/12/21 16:46:45 [notice] 22#22: exit
+2023/12/21 16:46:45 [notice] 23#23: exiting
+2023/12/21 16:46:45 [notice] 23#23: exit
+2023/12/21 16:46:45 [notice] 20#20: exit
+2023/12/21 16:46:45 [notice] 21#21: exit
+2023/12/21 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:46:45 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:46:45 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:46:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:46:45 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:46:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:46:45 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:46:45 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:46:45 [notice] 1#1: exit
+2023/12/21 16:46:47 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:15
+2023/12/21 16:46:47 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:46:47 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:46:47 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:46:47 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:46:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:46:47 [notice] 1#1: start worker processes
+2023/12/21 16:46:47 [notice] 1#1: start worker process 20
+2023/12/21 16:46:47 [notice] 1#1: start worker process 21
+2023/12/21 16:46:47 [notice] 1#1: start worker process 22
+2023/12/21 16:46:47 [notice] 1#1: start worker process 23
+2023/12/21 16:49:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:49:56 [notice] 20#20: gracefully shutting down
+2023/12/21 16:49:56 [notice] 20#20: exiting
+2023/12/21 16:49:56 [notice] 22#22: gracefully shutting down
+2023/12/21 16:49:56 [notice] 21#21: gracefully shutting down
+2023/12/21 16:49:56 [notice] 23#23: gracefully shutting down
+2023/12/21 16:49:56 [notice] 23#23: exiting
+2023/12/21 16:49:56 [notice] 20#20: exit
+2023/12/21 16:49:56 [notice] 22#22: exiting
+2023/12/21 16:49:56 [notice] 21#21: exiting
+2023/12/21 16:49:56 [notice] 21#21: exit
+2023/12/21 16:49:56 [notice] 23#23: exit
+2023/12/21 16:49:56 [notice] 22#22: exit
+2023/12/21 16:49:56 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:49:56 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:49:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:49:56 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:49:56 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:49:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:49:56 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:49:56 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:49:56 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:49:56 [notice] 1#1: exit
+2023/12/21 16:50:33 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:19
+2023/12/21 16:50:33 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:50:33 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:50:33 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:50:33 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:50:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:50:33 [notice] 1#1: start worker processes
+2023/12/21 16:50:33 [notice] 1#1: start worker process 20
+2023/12/21 16:50:33 [notice] 1#1: start worker process 21
+2023/12/21 16:50:33 [notice] 1#1: start worker process 22
+2023/12/21 16:50:33 [notice] 1#1: start worker process 23
+2023/12/21 16:50:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:50:51 [notice] 21#21: gracefully shutting down
+2023/12/21 16:50:51 [notice] 23#23: gracefully shutting down
+2023/12/21 16:50:51 [notice] 23#23: exiting
+2023/12/21 16:50:51 [notice] 22#22: gracefully shutting down
+2023/12/21 16:50:51 [notice] 22#22: exiting
+2023/12/21 16:50:51 [notice] 20#20: gracefully shutting down
+2023/12/21 16:50:51 [notice] 21#21: exiting
+2023/12/21 16:50:51 [notice] 23#23: exit
+2023/12/21 16:50:51 [notice] 22#22: exit
+2023/12/21 16:50:51 [notice] 20#20: exiting
+2023/12/21 16:50:51 [notice] 21#21: exit
+2023/12/21 16:50:51 [notice] 20#20: exit
+2023/12/21 16:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:50:51 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:50:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:50:51 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:50:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:50:51 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:50:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:50:51 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:50:51 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:50:51 [notice] 1#1: exit
+2023/12/21 16:50:53 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:19
+2023/12/21 16:50:53 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:50:53 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:50:53 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:50:53 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:50:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:50:53 [notice] 1#1: start worker processes
+2023/12/21 16:50:53 [notice] 1#1: start worker process 20
+2023/12/21 16:50:53 [notice] 1#1: start worker process 21
+2023/12/21 16:50:53 [notice] 1#1: start worker process 22
+2023/12/21 16:50:53 [notice] 1#1: start worker process 23
+2023/12/21 16:51:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:51:22 [notice] 21#21: gracefully shutting down
+2023/12/21 16:51:22 [notice] 20#20: gracefully shutting down
+2023/12/21 16:51:22 [notice] 22#22: gracefully shutting down
+2023/12/21 16:51:22 [notice] 22#22: exiting
+2023/12/21 16:51:22 [notice] 23#23: gracefully shutting down
+2023/12/21 16:51:22 [notice] 22#22: exit
+2023/12/21 16:51:22 [notice] 21#21: exiting
+2023/12/21 16:51:22 [notice] 21#21: exit
+2023/12/21 16:51:22 [notice] 20#20: exiting
+2023/12/21 16:51:22 [notice] 23#23: exiting
+2023/12/21 16:51:22 [notice] 20#20: exit
+2023/12/21 16:51:22 [notice] 23#23: exit
+2023/12/21 16:51:22 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:51:22 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:51:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:51:22 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:51:22 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:51:22 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:51:22 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:51:22 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:51:22 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:51:22 [notice] 1#1: exit
+2023/12/21 16:51:25 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:19
+2023/12/21 16:51:25 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:51:25 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:51:25 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:51:25 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:51:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:51:25 [notice] 1#1: start worker processes
+2023/12/21 16:51:25 [notice] 1#1: start worker process 20
+2023/12/21 16:51:25 [notice] 1#1: start worker process 21
+2023/12/21 16:51:25 [notice] 1#1: start worker process 22
+2023/12/21 16:51:25 [notice] 1#1: start worker process 23
+2023/12/21 16:51:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:51:38 [notice] 22#22: gracefully shutting down
+2023/12/21 16:51:38 [notice] 21#21: gracefully shutting down
+2023/12/21 16:51:38 [notice] 21#21: exiting
+2023/12/21 16:51:38 [notice] 23#23: gracefully shutting down
+2023/12/21 16:51:38 [notice] 21#21: exit
+2023/12/21 16:51:38 [notice] 20#20: gracefully shutting down
+2023/12/21 16:51:38 [notice] 22#22: exiting
+2023/12/21 16:51:38 [notice] 23#23: exiting
+2023/12/21 16:51:38 [notice] 20#20: exiting
+2023/12/21 16:51:38 [notice] 22#22: exit
+2023/12/21 16:51:38 [notice] 23#23: exit
+2023/12/21 16:51:38 [notice] 20#20: exit
+2023/12/21 16:51:38 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:51:38 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:51:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:51:38 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/12/21 16:51:38 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:51:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:51:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:51:38 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:51:38 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:51:38 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:51:38 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:51:38 [notice] 1#1: exit
+2023/12/21 16:51:42 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:19
+2023/12/21 16:51:42 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:51:42 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:51:42 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:51:42 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:51:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:51:42 [notice] 1#1: start worker processes
+2023/12/21 16:51:42 [notice] 1#1: start worker process 20
+2023/12/21 16:51:42 [notice] 1#1: start worker process 21
+2023/12/21 16:51:42 [notice] 1#1: start worker process 22
+2023/12/21 16:51:42 [notice] 1#1: start worker process 23
+2023/12/21 16:51:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:51:59 [notice] 21#21: gracefully shutting down
+2023/12/21 16:51:59 [notice] 21#21: exiting
+2023/12/21 16:51:59 [notice] 23#23: gracefully shutting down
+2023/12/21 16:51:59 [notice] 22#22: gracefully shutting down
+2023/12/21 16:51:59 [notice] 20#20: gracefully shutting down
+2023/12/21 16:51:59 [notice] 21#21: exit
+2023/12/21 16:51:59 [notice] 23#23: exiting
+2023/12/21 16:51:59 [notice] 23#23: exit
+2023/12/21 16:51:59 [notice] 22#22: exiting
+2023/12/21 16:51:59 [notice] 22#22: exit
+2023/12/21 16:51:59 [notice] 20#20: exiting
+2023/12/21 16:51:59 [notice] 20#20: exit
+2023/12/21 16:51:59 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:51:59 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:51:59 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:51:59 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:51:59 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:51:59 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:51:59 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:51:59 [notice] 1#1: exit
+2023/12/21 16:52:01 [warn] 1#1: duplicate MIME type "text/html" in /etc/nginx/conf.d/app.conf:19
+2023/12/21 16:52:01 [notice] 1#1: using the "epoll" event method
+2023/12/21 16:52:01 [notice] 1#1: nginx/1.25.3
+2023/12/21 16:52:01 [notice] 1#1: built by gcc 12.2.1 20220924 (Alpine 12.2.1_git20220924-r10) 
+2023/12/21 16:52:01 [notice] 1#1: OS: Linux 5.15.49-linuxkit
+2023/12/21 16:52:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/12/21 16:52:01 [notice] 1#1: start worker processes
+2023/12/21 16:52:01 [notice] 1#1: start worker process 20
+2023/12/21 16:52:01 [notice] 1#1: start worker process 21
+2023/12/21 16:52:01 [notice] 1#1: start worker process 22
+2023/12/21 16:52:01 [notice] 1#1: start worker process 23
+2023/12/21 16:52:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/12/21 16:52:43 [notice] 20#20: gracefully shutting down
+2023/12/21 16:52:43 [notice] 23#23: gracefully shutting down
+2023/12/21 16:52:43 [notice] 23#23: exiting
+2023/12/21 16:52:43 [notice] 21#21: gracefully shutting down
+2023/12/21 16:52:43 [notice] 22#22: gracefully shutting down
+2023/12/21 16:52:43 [notice] 20#20: exiting
+2023/12/21 16:52:43 [notice] 22#22: exiting
+2023/12/21 16:52:43 [notice] 20#20: exit
+2023/12/21 16:52:43 [notice] 23#23: exit
+2023/12/21 16:52:43 [notice] 21#21: exiting
+2023/12/21 16:52:43 [notice] 21#21: exit
+2023/12/21 16:52:43 [notice] 22#22: exit
+2023/12/21 16:52:43 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/12/21 16:52:43 [notice] 1#1: worker process 21 exited with code 0
+2023/12/21 16:52:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:52:43 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/12/21 16:52:43 [notice] 1#1: worker process 20 exited with code 0
+2023/12/21 16:52:43 [notice] 1#1: signal 29 (SIGIO) received
+2023/12/21 16:52:43 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/12/21 16:52:43 [notice] 1#1: worker process 22 exited with code 0
+2023/12/21 16:52:43 [notice] 1#1: worker process 23 exited with code 0
+2023/12/21 16:52:43 [notice] 1#1: exit
